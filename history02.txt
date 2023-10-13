@@ -1,0 +1,9 @@
+   0 pwd
+   1 mkdir /home/user/
+   2 mkdir /home/user/start
+   3 echo "Start">/home/user/start/1.txt
+   4 date '+%D'>>/home/user/start/1.txt
+   5 mkdir /opt/task/
+   6 cp /home/user/start/1.txt /opt/task/start.txt
+   7 ls -a / | head -4 >>/opt/task/start.txt
+   8 history >history.txt
