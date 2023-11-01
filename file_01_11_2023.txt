@@ -1,0 +1,8 @@
+11/01/23
+2417704
+   8 df
+   9 df | head -2 | tail -1
+  10 df | head -2 | tail -1 | awk '{print $3}'
+  11 df | head -2 | tail -1 | awk '{print $3}' >>file.txt
+  12 history | tail -5 >>file.txt
+AuthenticX86
