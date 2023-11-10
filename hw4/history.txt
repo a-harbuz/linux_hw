@@ -1,0 +1,27 @@
+   0 pwd
+   1 touch myfirstbashscript.sh
+   2 chmod u+x myfirstbashscript.sh
+   3 ls -l
+   4 export USER=ALEXANDR
+   5 nano myfirstbashscript.sh
+   6 ./myfirstbashscript.sh
+   7 history >history.txt
+
+
+
+11/10/23
+Hello ALEXANDR !
+I work from:
+/root
+
+
+
+#!/bin/bash
+
+date '+%D'
+
+echo "Hello $USER !"
+
+echo "I work from:"
+pwd
+
